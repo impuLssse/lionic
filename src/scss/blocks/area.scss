@@ -1,0 +1,54 @@
+.area__main {
+    .container {
+        width: 100vw;
+        height: 550px;
+    }
+
+    .background {
+        position: absolute;
+        z-index: -99;
+        height: 100%;
+        width: 100vw;
+        background: url(../../img/bg.jpg);
+    }
+
+    .area {
+        margin-top: 60px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 100%;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: center;
+            width: 529px;
+            height: 303px;
+
+            h3 {
+                width: 529px;
+                color: $black;
+            }
+
+            p {
+                width: 471px;
+                color: $gray;
+            }
+
+            button {
+                width: 250px;
+            }
+
+            .ssl {
+                display: inline-flex;
+                text-transform: uppercase;
+
+                p {
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+}

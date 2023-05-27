@@ -1,0 +1,44 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+  color: $white;
+  font-family: 'Open Sans', sans-serif;
+  background: #FFF;
+
+  &.active-body {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 36px;
+}
+
+a,
+button {
+  color: $white;
+}
+
+.btn {
+  color: $white;
+  background: $blue;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  border: 1px solid $blue;
+  padding: 20px 30px;
+  border-radius: 8px;
+  transition: all .2s;
+}
+
+.container {
+  max-width: 1390px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}

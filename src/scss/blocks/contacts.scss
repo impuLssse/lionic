@@ -1,0 +1,58 @@
+.contacts {
+    .content {
+        margin: 0 auto;
+
+        h3 {
+            color: $black;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+            margin-top: 140px;
+            justify-content: space-between;
+            width: 970px;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+
+                h2 {
+                    font-weight: 600;
+                    font-size: 17px;
+                    color: #1C1C1C;
+                    margin-bottom: 30px;
+                }
+
+                img {
+                    width: 29px;
+                    height: 29px;
+                    margin-bottom: 19px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 180%;
+                    color: #787878;
+                }
+            }
+
+            .visit {
+                width: 214px;
+                height: 159px;
+            }
+
+            .phone {
+                width: 121px;
+                height: 159px;
+            }
+
+            .mail {
+                width: 170px;
+                height: 159px;
+            }
+        }
+    }
+}

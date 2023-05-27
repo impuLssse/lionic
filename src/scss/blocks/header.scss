@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: 120px;
+
+    div {
+        display: flex;
+        align-items: center;
+
+        .links {
+            display: flex;
+            align-items: center;
+            margin-right: 160px;
+
+            a {
+                color: $black;
+                margin-left: 60px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: 0.02em;
+                transition: all .3s;
+
+                &:hover {
+                    color: $blue;
+                }
+            }
+
+            a:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,98 @@
+.join {
+    margin-top: 100px;
+
+    .content {
+        width: 1060px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 130%;
+            color: #1C1C1C;
+            margin: 0 auto;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            color: #787878;
+            margin-bottom: 30px;
+            margin: 0 auto;
+        }
+
+        form {
+            flex-wrap: wrap;
+            display: flex;
+            height: 243px;
+
+            .input {
+                width: 251px;
+                height: 60px;
+                opacity: 0.6;
+                border: 1px solid #DAD;
+                border-radius: 10px;
+                margin-right: 10px;
+
+                &::placeholder {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #787878;
+                    padding-left: 10px;
+                }
+
+            }
+
+            select {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                color: black;
+                border: 1px solid #ccc;
+            }
+
+            .comment {
+                .input {
+                    width: 520px;
+                    height: 139px;
+                }
+            }
+        }
+
+        .get-started {
+            height: 85px;
+            display: flex;
+            flex-direction: column;
+            width: 230px;
+
+            button {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 15px 35px;
+                gap: 10px;
+                width: 230px;
+                height: 60px;
+                background: #3172B9;
+                border-radius: 50px;
+                margin-bottom: 10px;
+            }
+
+            label {
+                font-size: 12px;
+                line-height: 16px;
+                text-align: center;
+                color: #787878;
+            }
+        }
+
+        &:last-child {
+            align-items: flex-end;
+        }
+    }
+}
